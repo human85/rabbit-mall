@@ -1,5 +1,10 @@
-<script setup></script>
+<script setup>
+const a = ref('string')
+</script>
 
-<template>App</template>
+<template>
+  {{ a }}
+  <el-button type="primary">123</el-button>
+</template>
 
 <style scoped></style>
