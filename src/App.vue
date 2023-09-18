@@ -1,10 +1,7 @@
-<script setup>
-const a = ref('string')
-</script>
+<script setup></script>
 
 <template>
-  {{ a }}
-  <el-button type="primary">123</el-button>
+  <router-view></router-view>
 </template>
 
 <style scoped></style>
